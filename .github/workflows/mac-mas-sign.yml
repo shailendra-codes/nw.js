@@ -1,5 +1,7 @@
 name: Mac Mas Signing Test
-on:[push,pull_request]
+On:
+  push:
+  pull_request:
 
 jobs:
 sign-mac:
